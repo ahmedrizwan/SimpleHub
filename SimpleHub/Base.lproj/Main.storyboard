@@ -72,6 +72,13 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="buttonSearch" destination="APN-pb-FzG" id="WBN-iL-Pjt"/>
+                        <outlet property="editTextUserName" destination="l61-nQ-0W0" id="pCD-Ku-yzI"/>
+                        <outlet property="imageViewUser" destination="2JP-p1-d5m" id="0NM-4S-N7F"/>
+                        <outlet property="labelTotalRepos" destination="fAx-u3-AM8" id="zca-Hy-QrW"/>
+                        <outlet property="labelUserName" destination="ya7-5h-hG7" id="YkA-sx-rTo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
