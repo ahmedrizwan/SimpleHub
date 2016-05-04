@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2898588D1CD9A0F4002C7ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2898588C1CD9A0F4002C7ABC /* AppDelegate.swift */; };
+		2898588F1CD9A0F4002C7ABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2898588E1CD9A0F4002C7ABC /* ViewController.swift */; };
+		289858921CD9A0F4002C7ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289858901CD9A0F4002C7ABC /* Main.storyboard */; };
+		289858941CD9A0F4002C7ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289858931CD9A0F4002C7ABC /* Assets.xcassets */; };
+		289858971CD9A0F4002C7ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289858951CD9A0F4002C7ABC /* LaunchScreen.storyboard */; };
+		289858A21CD9A0F4002C7ABC /* SimpleHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289858A11CD9A0F4002C7ABC /* SimpleHubTests.swift */; };
+		289858AD1CD9A0F4002C7ABC /* SimpleHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289858AC1CD9A0F4002C7ABC /* SimpleHubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2898589E1CD9A0F4002C7ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 289858811CD9A0F4002C7ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289858881CD9A0F4002C7ABC;
+			remoteInfo = SimpleHub;
+		};
+		289858A91CD9A0F4002C7ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 289858811CD9A0F4002C7ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289858881CD9A0F4002C7ABC;
+			remoteInfo = SimpleHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		289858891CD9A0F4002C7ABC /* SimpleHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2898588C1CD9A0F4002C7ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2898588E1CD9A0F4002C7ABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		289858911CD9A0F4002C7ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		289858931CD9A0F4002C7ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		289858961CD9A0F4002C7ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		289858981CD9A0F4002C7ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2898589D1CD9A0F4002C7ABC /* SimpleHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		289858A11CD9A0F4002C7ABC /* SimpleHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHubTests.swift; sourceTree = "<group>"; };
+		289858A31CD9A0F4002C7ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289858A81CD9A0F4002C7ABC /* SimpleHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		289858AC1CD9A0F4002C7ABC /* SimpleHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHubUITests.swift; sourceTree = "<group>"; };
+		289858AE1CD9A0F4002C7ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		289858861CD9A0F4002C7ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2898589A1CD9A0F4002C7ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289858A51CD9A0F4002C7ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		289858801CD9A0F4002C7ABC = {
+			isa = PBXGroup;
+			children = (
+				2898588B1CD9A0F4002C7ABC /* SimpleHub */,
+				289858A01CD9A0F4002C7ABC /* SimpleHubTests */,
+				289858AB1CD9A0F4002C7ABC /* SimpleHubUITests */,
+				2898588A1CD9A0F4002C7ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2898588A1CD9A0F4002C7ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				289858891CD9A0F4002C7ABC /* SimpleHub.app */,
+				2898589D1CD9A0F4002C7ABC /* SimpleHubTests.xctest */,
+				289858A81CD9A0F4002C7ABC /* SimpleHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2898588B1CD9A0F4002C7ABC /* SimpleHub */ = {
+			isa = PBXGroup;
+			children = (
+				2898588C1CD9A0F4002C7ABC /* AppDelegate.swift */,
+				2898588E1CD9A0F4002C7ABC /* ViewController.swift */,
+				289858901CD9A0F4002C7ABC /* Main.storyboard */,
+				289858931CD9A0F4002C7ABC /* Assets.xcassets */,
+				289858951CD9A0F4002C7ABC /* LaunchScreen.storyboard */,
+				289858981CD9A0F4002C7ABC /* Info.plist */,
+			);
+			path = SimpleHub;
+			sourceTree = "<group>";
+		};
+		289858A01CD9A0F4002C7ABC /* SimpleHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				289858A11CD9A0F4002C7ABC /* SimpleHubTests.swift */,
+				289858A31CD9A0F4002C7ABC /* Info.plist */,
+			);
+			path = SimpleHubTests;
+			sourceTree = "<group>";
+		};
+		289858AB1CD9A0F4002C7ABC /* SimpleHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				289858AC1CD9A0F4002C7ABC /* SimpleHubUITests.swift */,
+				289858AE1CD9A0F4002C7ABC /* Info.plist */,
+			);
+			path = SimpleHubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		289858881CD9A0F4002C7ABC /* SimpleHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289858B11CD9A0F4002C7ABC /* Build configuration list for PBXNativeTarget "SimpleHub" */;
+			buildPhases = (
+				289858851CD9A0F4002C7ABC /* Sources */,
+				289858861CD9A0F4002C7ABC /* Frameworks */,
+				289858871CD9A0F4002C7ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleHub;
+			productName = SimpleHub;
+			productReference = 289858891CD9A0F4002C7ABC /* SimpleHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2898589C1CD9A0F4002C7ABC /* SimpleHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289858B41CD9A0F4002C7ABC /* Build configuration list for PBXNativeTarget "SimpleHubTests" */;
+			buildPhases = (
+				289858991CD9A0F4002C7ABC /* Sources */,
+				2898589A1CD9A0F4002C7ABC /* Frameworks */,
+				2898589B1CD9A0F4002C7ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2898589F1CD9A0F4002C7ABC /* PBXTargetDependency */,
+			);
+			name = SimpleHubTests;
+			productName = SimpleHubTests;
+			productReference = 2898589D1CD9A0F4002C7ABC /* SimpleHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		289858A71CD9A0F4002C7ABC /* SimpleHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289858B71CD9A0F4002C7ABC /* Build configuration list for PBXNativeTarget "SimpleHubUITests" */;
+			buildPhases = (
+				289858A41CD9A0F4002C7ABC /* Sources */,
+				289858A51CD9A0F4002C7ABC /* Frameworks */,
+				289858A61CD9A0F4002C7ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				289858AA1CD9A0F4002C7ABC /* PBXTargetDependency */,
+			);
+			name = SimpleHubUITests;
+			productName = SimpleHubUITests;
+			productReference = 289858A81CD9A0F4002C7ABC /* SimpleHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		289858811CD9A0F4002C7ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ahmed Rizwan";
+				TargetAttributes = {
+					289858881CD9A0F4002C7ABC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					2898589C1CD9A0F4002C7ABC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 289858881CD9A0F4002C7ABC;
+					};
+					289858A71CD9A0F4002C7ABC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 289858881CD9A0F4002C7ABC;
+					};
+				};
+			};
+			buildConfigurationList = 289858841CD9A0F4002C7ABC /* Build configuration list for PBXProject "SimpleHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 289858801CD9A0F4002C7ABC;
+			productRefGroup = 2898588A1CD9A0F4002C7ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				289858881CD9A0F4002C7ABC /* SimpleHub */,
+				2898589C1CD9A0F4002C7ABC /* SimpleHubTests */,
+				289858A71CD9A0F4002C7ABC /* SimpleHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		289858871CD9A0F4002C7ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289858971CD9A0F4002C7ABC /* LaunchScreen.storyboard in Resources */,
+				289858941CD9A0F4002C7ABC /* Assets.xcassets in Resources */,
+				289858921CD9A0F4002C7ABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2898589B1CD9A0F4002C7ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289858A61CD9A0F4002C7ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		289858851CD9A0F4002C7ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2898588F1CD9A0F4002C7ABC /* ViewController.swift in Sources */,
+				2898588D1CD9A0F4002C7ABC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289858991CD9A0F4002C7ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289858A21CD9A0F4002C7ABC /* SimpleHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289858A41CD9A0F4002C7ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289858AD1CD9A0F4002C7ABC /* SimpleHubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2898589F1CD9A0F4002C7ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289858881CD9A0F4002C7ABC /* SimpleHub */;
+			targetProxy = 2898589E1CD9A0F4002C7ABC /* PBXContainerItemProxy */;
+		};
+		289858AA1CD9A0F4002C7ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289858881CD9A0F4002C7ABC /* SimpleHub */;
+			targetProxy = 289858A91CD9A0F4002C7ABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		289858901CD9A0F4002C7ABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289858911CD9A0F4002C7ABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		289858951CD9A0F4002C7ABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289858961CD9A0F4002C7ABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		289858AF1CD9A0F4002C7ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		289858B01CD9A0F4002C7ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		289858B21CD9A0F4002C7ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minimize.SimpleHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		289858B31CD9A0F4002C7ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minimize.SimpleHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		289858B51CD9A0F4002C7ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minimize.SimpleHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleHub.app/SimpleHub";
+			};
+			name = Debug;
+		};
+		289858B61CD9A0F4002C7ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minimize.SimpleHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleHub.app/SimpleHub";
+			};
+			name = Release;
+		};
+		289858B81CD9A0F4002C7ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minimize.SimpleHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleHub;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		289858B91CD9A0F4002C7ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minimize.SimpleHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleHub;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		289858841CD9A0F4002C7ABC /* Build configuration list for PBXProject "SimpleHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289858AF1CD9A0F4002C7ABC /* Debug */,
+				289858B01CD9A0F4002C7ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289858B11CD9A0F4002C7ABC /* Build configuration list for PBXNativeTarget "SimpleHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289858B21CD9A0F4002C7ABC /* Debug */,
+				289858B31CD9A0F4002C7ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		289858B41CD9A0F4002C7ABC /* Build configuration list for PBXNativeTarget "SimpleHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289858B51CD9A0F4002C7ABC /* Debug */,
+				289858B61CD9A0F4002C7ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		289858B71CD9A0F4002C7ABC /* Build configuration list for PBXNativeTarget "SimpleHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289858B81CD9A0F4002C7ABC /* Debug */,
+				289858B91CD9A0F4002C7ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 289858811CD9A0F4002C7ABC /* Project object */;
+}
